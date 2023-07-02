@@ -1,0 +1,97 @@
+/*In ordine*/
+/*corpo riga 10 html, fino a 60*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("immagini/background.jpg");
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*contenitore riga 12 html fino a 54*/
+.contenitore{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/*header riga 11 html fino a 55*/
+header{
+    color: limegreen;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/*logo, che sta dentro header riga 14 html fino a 14*/
+#logo{
+    display: block;
+    margin: auto auto;
+    width: 25%;
+}
+
+/*nav, riga 17 html a 22*/
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: limegreen;
+    border-radius: 6px;
+
+}
+
+nav > button{
+    border-style: solid;
+    text-align: center;
+    border-color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+/*Main riga 24 html fino a 52*/
+main{
+    color: white;
+}
+/*tutte le barre, quando ho capito le varie misure, colori, raggio, ho fatto semplicemente copia e incolla e adattato al requisito */
+.barra22{
+    width: 25%;
+    height: 25px;
+    text-align: left;
+    background-color: orange;
+    border-radius: 5px;
+}
+.barra24{
+    width: 50%;
+    height: 25px;
+    text-align: left;
+    background-color: limegreen;
+    border-radius: 5px;
+
+}
+.barra154{
+    width: 10%;
+    height: 25px;
+    text-align: left;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.block{
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.block::before{
+    content: "\21A6";
+}
+.block2{
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
